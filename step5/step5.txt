@@ -1,0 +1,18 @@
+
+step5:
+  FENICS/Python version
+  Step 5 in P-Laplacian investigation.
+  Diffusivity is |grad(u)|.
+
+  Case of 16 x 16 mesh
+  Approximation degree 1:
+  Graphics saved as "step5_mesh.png"
+  Graphics saved as "step5_diffusivity.png"
+  Graphics saved as "step5_diffusivity_grad_norm.png"
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+  Graphics saved as "step5_solution.png"
+  Graphics saved as "step5_gradun.png"
+  Graphics saved as "step5_indicators.png"
+
+step5:
+  Normal end of execution.

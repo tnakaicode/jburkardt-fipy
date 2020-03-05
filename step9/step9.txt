@@ -1,0 +1,80 @@
+Thu Nov  8 20:38:09 2018
+
+step9_test:
+  FENICS/Python version
+  p-Laplacian investigation.
+  Display error decay for adaptive refinement.
+
+  Exact case #1
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Proportion of cells to refine is 0.5
+  Level 0: 32 cells, error estimate is 0.00858598
+  Refining 17 cells
+  Level 1: 100 cells, error estimate is 0.00282758
+  Refining 51 cells
+  Level 2: 304 cells, error estimate is 0.00100818
+  Refining 153 cells
+  Level 3: 896 cells, error estimate is 0.000359644
+  Refining 449 cells
+  Level 4: 2672 cells, error estimate is 0.000115943
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step9_error_decay_case1.png"
+
+  Exact case #2
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Proportion of cells to refine is 0.5
+  Level 0: 32 cells, error estimate is 0.0798326
+  Refining 17 cells
+  Level 1: 100 cells, error estimate is 0.0254692
+  Refining 51 cells
+  Level 2: 315 cells, error estimate is 0.00880834
+  Refining 158 cells
+  Level 3: 1039 cells, error estimate is 0.00295808
+  Refining 520 cells
+  Level 4: 3063 cells, error estimate is 0.00104618
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step9_error_decay_case2.png"
+
+  Exact case #3
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Proportion of cells to refine is 0.5
+  Level 0: 32 cells, error estimate is 0.000384055
+  Refining 17 cells
+  Level 1: 93 cells, error estimate is 0.00016058
+  Refining 47 cells
+  Level 2: 274 cells, error estimate is 5.66994e-05
+  Refining 138 cells
+  Level 3: 769 cells, error estimate is 1.92532e-05
+  Refining 385 cells
+  Level 4: 2194 cells, error estimate is 6.43897e-06
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step9_error_decay_case3.png"
+
+  Exact case #4
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Proportion of cells to refine is 0.5
+  Level 0: 32 cells, error estimate is 0.0606073
+  Refining 17 cells
+  Level 1: 94 cells, error estimate is 0.0165908
+  Refining 48 cells
+  Level 2: 280 cells, error estimate is 0.00577191
+  Refining 141 cells
+  Level 3: 828 cells, error estimate is 0.00179905
+  Refining 415 cells
+  Level 4: 2364 cells, error estimate is 0.00059821
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step9_error_decay_case4.png"
+
+step9_test:
+  Normal end of execution.
+
+Thu Nov  8 20:38:19 2018
+fenics@ad083a9c4532:~/shared$ 

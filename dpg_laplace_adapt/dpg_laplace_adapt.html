@@ -1,0 +1,178 @@
+<html>
+
+  <head>
+    <title>
+      dpg_laplace_adapt - Adaptive DPG Code for Poisson Problem
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      dpg_laplace_adapt <br> Adaptive DPG Code for Poisson Problem
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>dpg_laplace_adapt</b>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square, with adaptivity,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/dpg_laplace_adapt
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 dpg_laplace_adapt.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../fenics_src/dpg_bvp/dpg_bvp.html">
+      dpg_bvp</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a boundary value problem over an interval,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      <a href = "../../fenics_src/dpg_laplace/dpg_laplace.html">
+      dpg_laplace</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Jay Gopalakrishnan,<br>
+          Five lectures on DPG Methods,<br>
+          Spring 2013, Portland State University,<br>
+          arXiv:1306.0557v2 [math.NA] 28 Aug 2014.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "dpg_laplace_adapt.py">dpg_laplace_adapt.py</a>
+          applies the DPG method to a Poisson problem.
+        </li>
+        <li>
+          <a href = "dpg_laplace_adapt.txt">dpg_laplace_adapt.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "dpg_laplace_adapt_original.py">dpg_laplace_adapt_original.py</a>
+          the original version of the script.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Plots of the mesh are available at 7 levels of refinement:
+      <ul>
+        <li>
+          <a href = "mesh0.png">mesh0.png</a>
+        </li>
+        <li>
+          <a href = "mesh1.png">mesh1.png</a>
+        </li>
+        <li>
+          <a href = "mesh2.png">mesh2.png</a>
+        </li>
+        <li>
+          <a href = "mesh3.png">mesh3.png</a>
+        </li>
+        <li>
+          <a href = "mesh4.png">mesh4.png</a>
+        </li>
+        <li>
+          <a href = "mesh5.png">mesh5.png</a>
+        </li>
+        <li>
+          <a href = "mesh6.png">mesh6.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Contour plots of the solution are available at 7 levels of refinement:
+      <ul>
+        <li>
+          <a href = "u0.png">u0.png</a>
+        </li>
+        <li>
+          <a href = "u1.png">u1.png</a>
+        </li>
+        <li>
+          <a href = "u2.png">u2.png</a>
+        </li>
+        <li>
+          <a href = "u3.png">u3.png</a>
+        </li>
+        <li>
+          <a href = "u4.png">u4.png</a>
+        </li>
+        <li>
+          <a href = "u5.png">u5.png</a>
+        </li>
+        <li>
+          <a href = "u6.png">u6.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 18 October 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

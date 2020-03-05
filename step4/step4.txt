@@ -1,0 +1,19 @@
+
+step4_test:
+  FENICS/Python version
+  Generate the right hand side function f(x,y)
+  for a Poisson problem
+  - div k(u,x,y) grad u = f(x,y) in Omega
+                      u = g(x,y) on dOmega
+  where we have already chosen
+    u(x,y) = 1 + x + 2y
+    k(u,x,y) = 1 + u^2
+  and want f(x,y) computed symbolically by SymPy.
+
+  Formula for F(x,y) computed by SymPy:
+
+  f(x,y) =  -10*x[0] - 20*x[1] - 10
+  Graphics saved as "step4_solution.png"
+
+step4_test:
+  Normal end of execution.

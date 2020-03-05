@@ -1,0 +1,19 @@
+Fri Nov  2 18:33:11 2018
+
+convection_diffusion_test:
+  FENICS/Python version
+  Convection/diffusion problem on the unit interval.
+  -del^2 u = f(x,y) in L
+  u(x,y) = 0 on dL
+  f(x,y) = e^(-(x-1)^2-(y-1)^2)
+
+  Unit interval mesh n = 10
+  Graphics saved as "convection_diffusion_solutions_grid10.png"
+
+  Unit interval mesh n = 100
+  Graphics saved as "convection_diffusion_solutions_grid100.png"
+
+convection_diffusion_test:
+  Normal end of execution.
+
+Fri Nov  2 18:33:12 2018

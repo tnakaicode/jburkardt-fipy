@@ -1,0 +1,73 @@
+(
+  Argument(
+    FunctionSpace(
+      Mesh(
+        VectorElement(
+          FiniteElement(
+            'Lagrange', triangle, 1
+          ), dim=2
+        ), 0
+      ), 
+      MixedElement(
+        FiniteElement(
+          'Discontinuous Lagrange', triangle, 3
+        ), 
+        FiniteElement(
+          'Lagrange', triangle, 2
+        ), 
+        FiniteElement(
+          'Brezzi-Douglas-Marini', triangle, 1
+        )
+      )
+    ), 0, None
+  ),
+ 
+  Argument(
+    FunctionSpace(
+      Mesh(
+        VectorElement(
+          FiniteElement(
+            'Lagrange', triangle, 1
+          ), dim=2
+        ), 0
+      ), 
+      MixedElement(
+        FiniteElement(
+          'Discontinuous Lagrange', triangle, 3
+        ), 
+        FiniteElement(
+          'Lagrange', triangle, 2
+        ), 
+        FiniteElement(
+          'Brezzi-Douglas-Marini', triangle, 1
+        )
+      )
+    ), 1, None
+  )
+) 
+
+vs 
+(
+  Argument(
+    FunctionSpace(
+      Mesh(
+        VectorElement(
+          FiniteElement(
+            'Lagrange', triangle, 1
+          ), dim=2
+        ), 0
+      ), 
+      MixedElement(
+        FiniteElement(
+          'Discontinuous Lagrange', triangle, 3
+        ), 
+        FiniteElement(
+          'Lagrange', triangle, 2
+        ), 
+        FiniteElement(
+          'Brezzi-Douglas-Marini', triangle, 1
+        )
+      )
+    ), 0, None
+  ),
+).

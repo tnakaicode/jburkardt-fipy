@@ -1,0 +1,156 @@
+<html>
+
+  <head>
+    <title>
+      step11 - Error Decay for a Sequence of Adaptive Meshes
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      step11 <br> Error Decay for a Sequence of Adaptive Meshes
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>step11</b>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem, and repeatedly refines the mesh, guided by
+      DPG error indicators.  Two methods of adaptive refinement are 
+      compared, one of which refines cells which represent a fixed percentage
+      of the error (case 0), and one of which refines a fixed percentage 
+      of the cells (case1).  The problem uses a discontinuous diffusivity 
+      function kappa(x,y).
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/step11
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 step11.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Jay Gopalakrishnan,<br>
+          Five lectures on DPG Methods,<br>
+          Spring 2013, Portland State University,<br>
+          arXiv:1306.0557v2 [math.NA] 28 Aug 2014.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "step11.py">step11.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "step11.txt">step11.txt</a>
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      The error decay plots:
+      <ul>
+        <li>
+          <a href = "step11_error_decay_case0.png">step11_error_decay_case0.png</a>
+        </li>
+        <li>
+          <a href = "step11_error_decay_case1.png">step11_error_decay_case1.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      The mesh plots for case 0:
+      <ul>
+        <li>
+          <a href = "step11_case0_mesh_level0.png">step11_case0_mesh_level0.png</a>
+        </li>
+        <li>
+          <a href = "step11_case0_mesh_level1.png">step11_case0_mesh_level1.png</a>
+        </li>
+        <li>
+          <a href = "step11_case0_mesh_level2.png">step11_case0_mesh_level2.png</a>
+        </li>
+        <li>
+          <a href = "step11_case0_mesh_level3.png">step11_case0_mesh_level3.png</a>
+        </li>
+        <li>
+          <a href = "step11_case0_mesh_level4.png">step11_case0_mesh_level4.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      The mesh plots for case 1:
+      <ul>
+        <li>
+          <a href = "step11_case1_mesh_level0.png">step11_case1_mesh_level0.png</a>
+        </li>
+        <li>
+          <a href = "step11_case1_mesh_level1.png">step11_case1_mesh_level1.png</a>
+        </li>
+        <li>
+          <a href = "step11_case1_mesh_level2.png">step11_case1_mesh_level2.png</a>
+        </li>
+        <li>
+          <a href = "step11_case1_mesh_level3.png">step11_case1_mesh_level3.png</a>
+        </li>
+        <li>
+          <a href = "step11_case1_mesh_level4.png">step11_case1_mesh_level4.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 12 November 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

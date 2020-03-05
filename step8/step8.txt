@@ -1,0 +1,104 @@
+Fri Nov  2 14:45:46 2018
+
+step8_test:
+  FENICS/Python version
+  p-Laplacian investigation.
+  Use DPG error indicators to guide adaptive mesh refinement.
+
+  Exact case #1
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step8_mesh_case1_level0.png"
+  Graphics saved as "step8_u_case1_level0.png"
+  Level 0: error estimate is 0.00858598
+  Refining 9 cells
+  Graphics saved as "step8_mesh_case1_level1.png"
+  Graphics saved as "step8_u_case1_level1.png"
+  Level 1: error estimate is 0.0035565
+  Refining 20 cells
+  Graphics saved as "step8_mesh_case1_level2.png"
+  Graphics saved as "step8_u_case1_level2.png"
+  Level 2: error estimate is 0.00189955
+  Refining 44 cells
+  Graphics saved as "step8_mesh_case1_level3.png"
+  Graphics saved as "step8_u_case1_level3.png"
+  Level 3: error estimate is 0.00086854
+  Refining 88 cells
+  Graphics saved as "step8_mesh_case1_level4.png"
+  Graphics saved as "step8_u_case1_level4.png"
+  Level 4: error estimate is 0.000466539
+  Refining 174 cells
+
+  Exact case #2
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step8_mesh_case2_level0.png"
+  Graphics saved as "step8_u_case2_level0.png"
+  Level 0: error estimate is 0.0798326
+  Refining 9 cells
+  Graphics saved as "step8_mesh_case2_level1.png"
+  Graphics saved as "step8_u_case2_level1.png"
+  Level 1: error estimate is 0.0403558
+  Refining 18 cells
+  Graphics saved as "step8_mesh_case2_level2.png"
+  Graphics saved as "step8_u_case2_level2.png"
+  Level 2: error estimate is 0.0197954
+  Refining 36 cells
+  Graphics saved as "step8_mesh_case2_level3.png"
+  Graphics saved as "step8_u_case2_level3.png"
+  Level 3: error estimate is 0.0107571
+  Refining 69 cells
+  Graphics saved as "step8_mesh_case2_level4.png"
+  Graphics saved as "step8_u_case2_level4.png"
+  Level 4: error estimate is 0.00524177
+  Refining 139 cells
+
+  Exact case #3
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step8_mesh_case3_level0.png"
+  Graphics saved as "step8_u_case3_level0.png"
+  Level 0: error estimate is 0.000384055
+  Refining 9 cells
+  Graphics saved as "step8_mesh_case3_level1.png"
+  Graphics saved as "step8_u_case3_level1.png"
+  Level 1: error estimate is 0.000253213
+  Refining 16 cells
+  Graphics saved as "step8_mesh_case3_level2.png"
+  Graphics saved as "step8_u_case3_level2.png"
+  Level 2: error estimate is 0.000106094
+  Refining 30 cells
+  Graphics saved as "step8_mesh_case3_level3.png"
+  Graphics saved as "step8_u_case3_level3.png"
+  Level 3: error estimate is 6.56962e-05
+  Level 3: error tolerance satisfied.
+
+  Exact case #4
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step8_mesh_case4_level0.png"
+  Graphics saved as "step8_u_case4_level0.png"
+  Level 0: error estimate is 0.0606073
+  Refining 9 cells
+  Graphics saved as "step8_mesh_case4_level1.png"
+  Graphics saved as "step8_u_case4_level1.png"
+  Level 1: error estimate is 0.0229571
+  Refining 16 cells
+  Graphics saved as "step8_mesh_case4_level2.png"
+  Graphics saved as "step8_u_case4_level2.png"
+  Level 2: error estimate is 0.0101166
+  Refining 31 cells
+  Graphics saved as "step8_mesh_case4_level3.png"
+  Graphics saved as "step8_u_case4_level3.png"
+  Level 3: error estimate is 0.00514708
+  Refining 64 cells
+  Graphics saved as "step8_mesh_case4_level4.png"
+  Graphics saved as "step8_u_case4_level4.png"
+  Level 4: error estimate is 0.0024737
+  Refining 132 cells
+
+step8_test:
+  Normal end of execution.
+
+Fri Nov  2 14:45:51 2018
+fenics@f4b3e697870c:~/shared$ 

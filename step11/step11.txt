@@ -1,0 +1,56 @@
+Mon Nov 12 17:08:27 2018
+
+step11_test:
+  FENICS/Python version
+  p-Laplacian investigation.
+  Use a piecewise constant diffusivity kappa.
+  Compare two adaptivity approaches.
+
+  Case of 4 x 4 mesh
+  Approximation degree 1:
+  Adaptivity case 0
+  Error proportion 0.5:
+  Graphics saved as "step11_case0_mesh_level0.png"
+  Level 0: 32 cells, error estimate is 0.301263
+  Refining 17 cells out of 32 total
+  Graphics saved as "step11_case0_mesh_level1.png"
+  Level 1: 105 cells, error estimate is 0.195657
+  Refining 80 cells out of 105 total
+  Graphics saved as "step11_case0_mesh_level2.png"
+  Level 2: 391 cells, error estimate is 0.171948
+  Refining 136 cells out of 391 total
+  Graphics saved as "step11_case0_mesh_level3.png"
+  Level 3: 931 cells, error estimate is 0.143517
+  Refining 296 cells out of 931 total
+  Graphics saved as "step11_case0_mesh_level4.png"
+  Level 4: 2163 cells, error estimate is 0.110881
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step11_error_decay_case0.png"
+
+  Case of 4 x 4 mesh
+  Approximation degree 1:
+  Adaptivity case 1
+  Error proportion 0.5:
+  Graphics saved as "step11_case1_mesh_level0.png"
+  Level 0: 32 cells, error estimate is 0.301263
+  Refining 17 cells out of 32 total
+  Graphics saved as "step11_case1_mesh_level1.png"
+  Level 1: 104 cells, error estimate is 0.195671
+  Refining 53 cells out of 104 total
+  Graphics saved as "step11_case1_mesh_level2.png"
+  Level 2: 296 cells, error estimate is 0.174273
+  Refining 149 cells out of 296 total
+  Graphics saved as "step11_case1_mesh_level3.png"
+  Level 3: 916 cells, error estimate is 0.143585
+  Refining 459 cells out of 916 total
+  Graphics saved as "step11_case1_mesh_level4.png"
+  Level 4: 2756 cells, error estimate is 0.110445
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step11_error_decay_case1.png"
+
+step11_test:
+  Normal end of execution.
+
+Mon Nov 12 17:08:34 2018

@@ -1,0 +1,14 @@
+Wed Nov  7 18:02:32 2018
+
+neumann_test:
+  FENICS/Python version
+  Boundary value problem with Neumann conditions.
+  Graphics saved as "neumann_mesh.png"
+  Graphics saved as "neumann_solution.png"
+  Graphics saved as "neumann_contour.png"
+  error_L2  = 0.00037634257374485284
+
+neumann_test:
+  Normal end of execution.
+
+Wed Nov  7 18:02:32 2018

@@ -1,0 +1,9 @@
+heat_steady_03
+  Python version
+  Solve the heat equation with varying thermal diffusivity.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Saving graphics in file 'heat_steady_03.png'
+
+heat_steady_03
+  Normal end of execution.

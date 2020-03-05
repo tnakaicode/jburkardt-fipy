@@ -1,0 +1,11 @@
+
+POISSON:
+  FENICS/Python version
+Solving linear variational problem.
+Mesh plot saved as "poisson_mesh.png"
+Solution plot saved as "poisson_solution.png"
+error_L2  = 0.019557274328664588
+error_max = 2.22044604925e-15
+
+POISSON:
+  Normal end of execution.

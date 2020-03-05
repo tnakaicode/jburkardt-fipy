@@ -1,0 +1,112 @@
+<html>
+
+  <head>
+    <title>
+      convection_diffusion_stabilized - A 1D convection-diffusion problem
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      convection_diffusion_stabilized <br> A 1D convection-diffusion problem
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>convection_diffusion_stabilized</b>,
+      a FENICS script which
+      uses the finite element method to simulate the solution of a
+      1D convection-diffusion problem, using artificial viscosity to
+      stabilize the solution.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/convection_diffusion_stabilized
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 convection_diffusion_stabilized.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Hans Petter Langtangen, Anders Logg,<br>
+          Solving PDEs in Python - The FEniCS Tutorial Volume 1.
+        </li>
+        <li>
+          Anders Logg, Kent-Andre Mardal,<br>
+          Lectures on the Finite Element Method.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "convection_diffusion_stabilized.py">convection_diffusion_stabilized.py</a>
+          a script which sets up and solves the problem.
+        </li>
+        <li>
+          <a href = "convection_diffusion_stabilized.txt">convection_diffusion_stabilized.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "convection_diffusion_stabilized_mesh.xml">convection_diffusion_stabilized_mesh.xml</a>
+          the mesh to be used.
+        </li>
+        <li>
+          <a href = "convection_diffusion_stabilized_solution_grid10.png">convection_diffusion_stabilized_solution_grid10.png</a>
+          a plot of the solution for a grid of 10 elements.
+        </li>
+        <li>
+          <a href = "convection_diffusion_stabilized_solution_grid100.png">convection_diffusion_stabilized_solution_grid100.png</a>
+          a plot of the solution for a grid of 100 elements.
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 02 November 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

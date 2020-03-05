@@ -1,0 +1,9 @@
+heat_steady_01
+  Python version
+  2D steady heat equation in a rectangle.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Saving graphics in file 'heat_steady_01.png'
+
+heat_steady_01
+  Normal end of execution.

@@ -1,0 +1,104 @@
+Thu Nov  8 20:40:22 2018
+
+step10_test:
+  FENICS/Python version
+  p-Laplacian investigation.
+  Display error decay for adaptive refinement.
+
+  Exact case #1
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Error proportion 0.5:
+
+  Graphics saved as "step10_mesh_case1_level0.png"
+  Level 0: 32 cells, error estimate is 0.00858598
+  Refining 6 cells out of 32 total
+  Graphics saved as "step10_mesh_case1_level1.png"
+  Level 1: 62 cells, error estimate is 0.00574446
+  Refining 40 cells out of 62 total
+  Graphics saved as "step10_mesh_case1_level2.png"
+  Level 2: 214 cells, error estimate is 0.00145991
+  Refining 159 cells out of 214 total
+  Graphics saved as "step10_mesh_case1_level3.png"
+  Level 3: 753 cells, error estimate is 0.000411304
+  Refining 342 cells out of 753 total
+  Graphics saved as "step10_mesh_case1_level4.png"
+  Level 4: 1996 cells, error estimate is 0.000155638
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step10_error_decay_case1.png"
+
+  Exact case #2
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Error proportion 0.5:
+
+  Graphics saved as "step10_mesh_case2_level0.png"
+  Level 0: 32 cells, error estimate is 0.0798326
+  Refining 3 cells out of 32 total
+  Graphics saved as "step10_mesh_case2_level1.png"
+  Level 1: 54 cells, error estimate is 0.0536195
+  Refining 6 cells out of 54 total
+  Graphics saved as "step10_mesh_case2_level2.png"
+  Level 2: 86 cells, error estimate is 0.0341487
+  Refining 11 cells out of 86 total
+  Graphics saved as "step10_mesh_case2_level3.png"
+  Level 3: 135 cells, error estimate is 0.0194409
+  Refining 23 cells out of 135 total
+  Graphics saved as "step10_mesh_case2_level4.png"
+  Level 4: 254 cells, error estimate is 0.0113463
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step10_error_decay_case2.png"
+
+  Exact case #3
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Error proportion 0.5:
+
+  Graphics saved as "step10_mesh_case3_level0.png"
+  Level 0: 32 cells, error estimate is 0.000384055
+  Refining 7 cells out of 32 total
+  Graphics saved as "step10_mesh_case3_level1.png"
+  Level 1: 56 cells, error estimate is 0.000274638
+  Refining 6 cells out of 56 total
+  Graphics saved as "step10_mesh_case3_level2.png"
+  Level 2: 88 cells, error estimate is 0.000168596
+  Refining 51 cells out of 88 total
+  Graphics saved as "step10_mesh_case3_level3.png"
+  Level 3: 282 cells, error estimate is 5.23833e-05
+  Refining 7 cells out of 282 total
+  Graphics saved as "step10_mesh_case3_level4.png"
+  Level 4: 315 cells, error estimate is 4.49553e-05
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step10_error_decay_case3.png"
+
+  Exact case #4
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Error proportion 0.5:
+
+  Graphics saved as "step10_mesh_case4_level0.png"
+  Level 0: 32 cells, error estimate is 0.0606073
+  Refining 1 cells out of 32 total
+  Graphics saved as "step10_mesh_case4_level1.png"
+  Level 1: 36 cells, error estimate is 0.0327741
+  Refining 9 cells out of 36 total
+  Graphics saved as "step10_mesh_case4_level2.png"
+  Level 2: 82 cells, error estimate is 0.0167444
+  Refining 4 cells out of 82 total
+  Graphics saved as "step10_mesh_case4_level3.png"
+  Level 3: 102 cells, error estimate is 0.011696
+  Refining 9 cells out of 102 total
+  Graphics saved as "step10_mesh_case4_level4.png"
+  Level 4: 155 cells, error estimate is 0.00846939
+
+  Finished with adaptive refinement sequence.
+  Graphics saved as "step10_error_decay_case4.png"
+
+step10_test:
+  Normal end of execution.
+
+Thu Nov  8 20:40:27 2018
+fenics@ca897e51911c:~/shared$ 

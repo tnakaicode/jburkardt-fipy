@@ -1,0 +1,38 @@
+dpg_laplace_adapt:
+  Discontinuous Petrov Galerkin method for the Poisson problem
+  on a unit square with 0 boundary conditions.
+Solving linear variational problem.
+Level 0: Estimated error E = 0.00393024 (TOL = 0.0001)
+Graphics: mesh0.png
+Graphics: u0.png
+Solving linear variational problem.
+Level 1: Estimated error E = 0.00216602 (TOL = 0.0001)
+Graphics: mesh1.png
+Graphics: u1.png
+Solving linear variational problem.
+Level 2: Estimated error E = 0.00152861 (TOL = 0.0001)
+Graphics: mesh2.png
+Graphics: u2.png
+Solving linear variational problem.
+Level 3: Estimated error E = 0.00109057 (TOL = 0.0001)
+Graphics: mesh3.png
+Graphics: u3.png
+Solving linear variational problem.
+Level 4: Estimated error E = 0.000686824 (TOL = 0.0001)
+Graphics: mesh4.png
+Graphics: u4.png
+Solving linear variational problem.
+Level 5: Estimated error E = 0.000371387 (TOL = 0.0001)
+Graphics: mesh5.png
+Graphics: u5.png
+Solving linear variational problem.
+Level 6: Estimated error E = 0.000190529 (TOL = 0.0001)
+Graphics: mesh6.png
+Graphics: u6.png
+Solving linear variational problem.
+Level 7: Estimated error E = 9.68675e-05 (TOL = 0.0001)
+Success, solution converged after 7 iterations
+
+dpg_laplace_adapt:
+  Normal end of execution.
+fenics@1a64a470c876:~/shared$ 

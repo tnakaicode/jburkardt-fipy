@@ -1,0 +1,18 @@
+
+dpglaplace:
+  Discontinuous Petrov Galerkin method for the Poisson problem
+  on a unit square with 0 boundary conditions.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+ Case of 8 x 8 mesh with degree 1:
+ H1-norm of  (u - uh)   =  0.002110886044
+ Error estimator norm   =  0.002297374385
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+ Error in H1 Projection =  0.002110884108
+ Error:Projection ratio =  1.000000917297
+ H1-norm of (uh - proj) =  0.000002859134
+
+dpglaplace:
+  Normal end of execution.

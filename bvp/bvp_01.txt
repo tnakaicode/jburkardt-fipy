@@ -1,0 +1,15 @@
+bvp_01_test:
+  FENICS/Python version
+  Boundary value problem.
+  -u" + u = x, 0 < x < 1
+  u(0) = 0, u(1) = 0
+  Exact solution is u(x) = x - sinh(x)/sinh(1)
+  Using 8 elements.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Graphics saved as "bvp_01_solution.png"
+
+bvp_01_test:
+  Normal end of execution.
+

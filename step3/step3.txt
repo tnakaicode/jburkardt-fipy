@@ -1,0 +1,15 @@
+step3:
+  FENICS/Python version
+  Step 3 in P-Laplacian investigation.
+  Piecewise constant diffusivity.
+
+  Case of 16 x 16 mesh
+  Approximation degree 1:
+  Graphics saved as "step3_mesh.png"
+  Graphics saved as "step3_diffusivity.png"
+  Graphics saved as "step3_solution.png"
+  Graphics saved as "step3_gradun.png"
+  Graphics saved as "step3_indicators.png"
+
+step3:
+  Normal end of execution.

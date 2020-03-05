@@ -1,0 +1,452 @@
+<html>
+
+  <head>
+    <title>
+      MITCHELL_FENICS - Mitchell Elliptic Test Problems for FENICS
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      MITCHELL_FENICS <br> Mitchell Elliptic Test Problems for FENICS
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>MITCHELL_FENICS</b>,
+      example scripts which
+      set up and solve Mitchell's 2D Elliptic Partial Differential Equations 
+      (PDE's) using the FENICS package.
+    </p>
+
+    <p>
+      Mitchell proposed these problems as a test suite for adaptive PDE solvers.
+      An adaptive solver is one that constructs a proposed solution, estimates
+      the error in this proposed solution, and then modifies its approach,
+      perhaps by refining the mesh or using higher order elements, to reduce
+      the error.
+    </p>
+
+    <p>
+      In this directory, we simply attempt to set up a fixed mesh and finite
+      element space and solve the problem once.
+    </p>
+
+    <p>
+      Mitchell's problems include:
+      <ol>
+        <li>
+          "Analytic Solution"
+        </li>
+        <li>
+          "Reentrant Corner"
+        </li>
+        <li>
+          "Linear Elasticity"
+        </li>
+        <li>
+          "Peak"
+        </li>
+        <li>
+          "Battery"
+        </li>
+        <li>
+          "Boundary Layer"
+        </li>
+        <li>
+          "Boundary Line Singularity"
+        </li>
+        <li>
+          "Oscillatory"
+        </li>
+        <li>
+          "Wave Front"
+        </li>
+        <li>
+          "Interior Line Singularity"
+        </li>
+        <li>
+          "Intersecting Interfaces"
+        </li>
+        <li>
+          "Multiple Difficulties"
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../py_src/dolfin-convert/dolfin-convert.html">
+      DOLFIN-CONVERT</a>,
+      a Python program which
+      can convert a mesh file from a given format to an
+      XML format suitable for use by DOLFIN or FENICS,
+      by Anders Logg.
+    </p>
+
+    <p>
+      <a href = "../../data/dolfin_xml/dolfin_xml.html">
+      DOLFIN_XML</a>,
+      a data directory which
+      contains examples of XML files that describe 3D finite element meshes
+      as used by DOLFIN and FENICS.
+    </p>
+
+    <p>
+      <a href = "../../examples/fenics/fenics.html">
+      FENICS</a>, 
+      examples which
+      illustrate the use of FENICS,
+      a collection of software for the automatic and efficient solution
+      of partial differential equations (PDE's)using the finite element method.
+    </p>
+
+    <p>
+      <a href = "../../examples/gmsh/gmsh.html">
+      GMSH</a>,
+      examples which
+      illustrate the use of the gmsh program,
+      a 3D mesh generator for the finite element method (FEM).
+    </p>
+
+    <p>
+      <a href = "../../m_src/mesh2d/mesh2d.html">
+      MESH2D</a>,
+      a MATLAB library which
+      can automatically create a triangular mesh for a given polygonal region,
+      by Darren Engwirda.
+    </p>
+
+    <p>
+      <a href = "../../m_src/meshfaces/meshfaces.html">
+      MESHFACES</a>,
+      a MATLAB library which
+      can automatically create a triangular mesh for a given polygonal region
+      that has been subdivided into multiple faces,
+      by Darren Engwirda.
+    </p>
+
+    <p>
+      <a href = "../../examples/meshlab/meshlab.html">
+      MESHLAB</a>,
+      examples which
+      illustrate the use of the meshlab program, 
+      an advanced mesh processing system for automatic or user-assisted
+      editing, cleaning, filtering, converting and rendering of large
+      unstructured 3D triangular meshes.  MESHLAB can read and write
+      3DS, OBJ, OFF, PLY, and STL graphics files.
+    </p>
+
+    <p>
+      <a href = "../../examples/mitchell_dealii/mitchell_dealii.html">
+      MITCHELL_DEALII</a>,
+      examples which
+      illustrate the implementation of the Mitchell 2D elliptic 
+      partial differential equation (PDE) test problems using DEAL.II.
+    </p>
+
+    <p>
+      <a href = "../../examples/mitchell_freefem++/mitchell_freefem++.html">
+      MITCHELL_FREEFEM++</a>,
+      examples which
+      illustrate the implementation of the Mitchell 2D elliptic 
+      partial differential equation (PDE) test problems using FREEFEM++.
+    </p>
+
+    <p>
+      <a href = "../../examples/paraview/paraview.html">
+      PARAVIEW</a>,
+      examples which
+      illustrate the use of the paraview interactive visualization program.
+    </p>
+
+    <p>
+      <a href = "../../examples/tetgen/tetgen.html">
+      TETGEN</a>,
+      examples which
+      illustrate the use of TETGEN,
+      a program which can compute the convex hull and 
+      Delaunay tetrahedralization of a set of 3D points, or can start 
+      with a 3D region defined by its boundaries, and construct a 
+      boundary-constrained conforming quality Delaunay mesh,
+      by Hang Si.
+    </p>
+
+    <p>
+      <a href = "../../m_src/triangulation_to_xml/triangulation_to_xml.html">
+      TRIANGULATION_TO_XML</a>,
+      a MATLAB program which
+      reads information defining a trinagulation, namely
+      a file of node coordinates and a file of elements defined by
+      node indices, and creates a corresponding DOLFIN XML mesh file.
+    </p>
+
+    <p>
+      <a href = "../../examples/visit/visit.html">
+      VISIT</a>,
+      examples which
+      illustrate the use of the visit interactive graphics program.
+    </p>
+
+    <p>
+      <a href = "../../data/vtk/vtk.html">
+      VTK</a>,
+      a data directory which
+      contains examples of legacy VTK files,
+      a file format used by the Visualization Toolkit, and which can be displayed
+      by programs such as paraview and visit;
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      A web site at NIST describes these and many other problems:
+      <a href = "http://math.nist.gov/amr-benchmark/index.html">
+                 http://math.nist.gov/amr-benchmark/index.html</a>
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          Anders Logg, Kent-Andre Mardal, Garth Wells,<br>
+          Automated Solution of Differential Equations by the Finite Element
+          Method:
+          The FEniCS Book,<br>
+          Lecture Notes in Computational Science and Engineering,<br>
+          Springer, 2011,<br>
+          ISBN13: 978-3642230981.
+        </li>
+        <li>
+          William Mitchell,<br>
+          A collection of 2D elliptic problems for testing adaptive
+          grid refinement algorithms,<br>
+          Applied Mathematics and Computation,<br>
+          Volume 220, 1 September 2013, pages 350-364.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <b>mitchell01</b> defines the "analytic solution" problem, with the Poisson
+      equation on the unit square [0,1]x[0,1] with zero boundary conditions.
+      <ul>
+        <li>
+          <a href = "mitchell01.py">mitchell01.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell02</b> defines the "reentrant corner" problem,
+      defined on the "upside down L" shaped region.
+      <ul>
+        <li>
+          <a href = "mitchell02.py">mitchell02.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+        <li>
+          <a href = "mitchell02.geo">mitchell02.geo</a>,
+          an input file to Gmsh to create the mesh.
+        </li>
+        <li>
+          <a href = "mitchell02.msh">mitchell02.msh</a>,
+          the mesh, in Gmsh format.
+        </li>
+        <li>
+          <a href = "mitchell02_mesh.xml">mitchell02_mesh.xml</a>,
+          the mesh, converted to XML format by dolfin-convert.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell03</b> defines the "linear elasticity" problem,
+      defined on the [-1,+1]x[-1,+1] square with a slit from (0,0) to (1,0).
+      <ul>
+        <li>
+          <a href = "mitchell03.py">mitchell03.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+        <li>
+          <a href = "mitchell03.geo">mitchell03.geo</a>,
+          an input file to Gmsh to create the mesh.
+        </li>
+        <li>
+          <a href = "mitchell03.msh">mitchell03.msh</a>,
+          the mesh, in Gmsh format.
+        </li>
+        <li>
+          <a href = "mitchell03_mesh.xml">mitchell03_mesh.xml</a>,
+          the mesh, converted to XML format by dolfin-convert.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell04</b> defines the "peak" problem on the unit square [0,1]x[0,1].
+      <ul>
+        <li>
+          <a href = "mitchell04.py">mitchell04.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell05</b> defines the "battery" problem.  This problem is defined
+      on a rectangle which has been subdivided into seven subregions.  
+      The entire region must be meshed, but the mesh is constrained to
+      have only element boundaries along the subregion boundaries.
+      The mesh was created in MESHFACES (a variant of MESH2D).  The nodes 
+      and elements were written to files, and then TRIANGULATION_TO_XML 
+      converted them to an appropriate XML file.
+      <ul>
+        <li>
+          <a href = "mitchell05.py">mitchell05.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+        <li>
+          <a href = "mitchell05_nodes.txt">mitchell05_nodes.txt</a>,
+          the mesh nodes, as a list.
+        </li>
+        <li>
+          <a href = "mitchell05_elements.txt">mitchell05_elements.txt</a>,
+          the mesh elements, as a list.
+        </li>
+        <li>
+          <a href = "mitchell05_mesh.xml">mitchell05_mesh.xml</a>,
+          the mesh, converted to XML format by triangulation_to_xml().
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell06</b> defines the "boundary layer" problem
+      on the [-1,+1]x[-1,+1] square.
+      <ul>
+        <li>
+          <a href = "mitchell06.py">mitchell06.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell07</b> defines the "boundary line singularity" problem
+      on the unit square [0,1]x[0,1].  There is a singularity in the right hand side
+      function F(X,Y), at the left boundary where X=0.
+      <ul>
+        <li>
+          <a href = "mitchell07.py">mitchell07.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell08</b> defines the "oscillatory" problem
+      on the unit square [0,1]x[0,1].
+      <ul>
+        <li>
+          <a href = "mitchell08.py">mitchell08.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell09</b> defines the "wave front" problem
+      on the unit square [0,1]x[0,1].
+      <ul>
+        <li>
+          <a href = "mitchell09.py">mitchell09.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell10</b> defines the "interior line singularity" problem
+      on the [-1,+1]x[-1,+1] square.
+      <ul>
+        <li>
+          <a href = "mitchell10.py">mitchell10.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell11</b> defines the "intersecting interfaces" problem
+      on the [-1,+1]x[-1,+1] square.
+      <ul>
+        <li>
+          <a href = "mitchell11.py">mitchell11.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <b>mitchell12</b> defines the "multiple difficulties" problem,
+      on the "upside down L" shaped region.
+      <ul>
+        <li>
+          <a href = "mitchell12.py">mitchell12.py</a>,
+          a Python script to solve the problem with FENICS.
+        </li>
+        <li>
+          <a href = "mitchell12.geo">mitchell12.geo</a>,
+          an input file to Gmsh to create the mesh.
+        </li>
+        <li>
+          <a href = "mitchell12.msh">mitchell12.msh</a>,
+          the mesh, in Gmsh format.
+        </li>
+        <li>
+          <a href = "mitchell12_mesh.xml">mitchell12_mesh.xml</a>,
+          the mesh, converted to XML format by dolfin-convert.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../examples.html">
+      the Examples directory</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 26 August 2014.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

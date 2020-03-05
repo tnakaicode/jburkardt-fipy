@@ -1,0 +1,46 @@
+Wed Oct 31 13:28:11 2018
+
+step7:
+  FENICS/Python version
+  P-Laplacian investigation.
+  Exact solution known.
+  Compare ||u-uh|| and DPG error indicator norm.
+
+  4x4 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step7_mesh_4.png"
+  Exact case #3
+  Graphics saved as "step7_u_4.png"
+  Graphics saved as "step7_u_exact_4.png"
+  Graphics saved as "step7_indicators_4.png"
+  H1 norm of u - u_exact =  0.000325171925
+  Error estimator norm   =  0.000384054545
+  Ratio                  =  1.181081499018
+
+  8x8 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step7_mesh_8.png"
+  Exact case #3
+  Graphics saved as "step7_u_8.png"
+  Graphics saved as "step7_u_exact_8.png"
+  Graphics saved as "step7_indicators_8.png"
+  H1 norm of u - u_exact =  0.000081481934
+  Error estimator norm   =  0.000096684902
+  Ratio                  =  1.186580846903
+
+  16x16 mesh on the unit square
+  Approximation degree 1:
+  Graphics saved as "step7_mesh_16.png"
+  Exact case #3
+  Graphics saved as "step7_u_16.png"
+  Graphics saved as "step7_u_exact_16.png"
+  Graphics saved as "step7_indicators_16.png"
+  H1 norm of u - u_exact =  0.000020383483
+  Error estimator norm   =  0.000024266918
+  Ratio                  =  1.190518734399
+
+step7:
+  Normal end of execution.
+
+Wed Oct 31 13:28:13 2018
+

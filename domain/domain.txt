@@ -1,0 +1,9 @@
+
+DOMAIN
+  FENICS/Python version
+  Demonstrate domain creattion by subtraction.
+  Graphics saved as "domain_mesh.png"
+
+DOMAIN
+  Normal end of execution.
+

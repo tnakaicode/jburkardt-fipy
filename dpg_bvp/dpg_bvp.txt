@@ -1,0 +1,103 @@
+
+dpg_bvp:
+  Discontinuous Petrov Galerkin method for a boundary
+  value problem on the unit interval.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 1 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.112480
+   L^2 distance b/w least-sqr and exact soln   =0.534374
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 2 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.094746
+   L^2 distance b/w least-sqr and exact soln   =0.293308
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 3 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.074605
+   L^2 distance b/w least-sqr and exact soln   =0.191247
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 4 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.054980
+   L^2 distance b/w least-sqr and exact soln   =0.125293
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 5 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.037973
+   L^2 distance b/w least-sqr and exact soln   =0.079687
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 6 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.024618
+   L^2 distance b/w least-sqr and exact soln   =0.048586
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 7 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.015007
+   L^2 distance b/w least-sqr and exact soln   =0.028246
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 8 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.008618
+   L^2 distance b/w least-sqr and exact soln   =0.015621
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Computations with degree 9 done:
+   L^2 distance b/w projection and PG solution =0.000000
+   L^2 distance b/w PG soln and exact soln     =0.004670
+   L^2 distance b/w least-sqr and exact soln   =0.008211
+Computations complete.
+Do you want to visualize some solutions? [1/0]1
+   Saved figure to dpg_bvp.pdf
+To view figure, visit http://127.0.0.1:8000
+Press Ctrl+C to stop WebAgg server
+^CServer is stopped
+Do you want to save solutions to Matlab? [1/0]1
+   Saved solution values to dpg_bvp.mat
+   with variables: PGsol (PG solution values)
+                   LSsol (LS solution values)
+                   Proj  (L^2 projection's values)
+                   Exact (exact solution values)
+                   x     (abscissae).
+
+dpg_bvp:
+  Normal end of execution.

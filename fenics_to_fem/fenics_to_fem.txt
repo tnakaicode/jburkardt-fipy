@@ -1,0 +1,11 @@
+
+FENICS_TO_FEM:
+  Python version
+  Convert FENICS data to FEM files: nodes, elements, values.
+Solving linear variational problem.
+Wrote node file 'spike_nodes.txt'
+Wrote element file 'spike_elements.txt'
+Wrote value file 'spike_values.txt'
+
+FENICS_TO_FEM:
+  Normal end of execution.

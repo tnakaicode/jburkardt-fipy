@@ -1,0 +1,116 @@
+<html>
+
+  <head>
+    <title>
+      interpolant - Define a Function with a Mesh and Values
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      interpolant <br> Define a Function with a Mesh and Values
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>interpolant</b>,
+      a FENICS script which
+      shows how to define a function in FENICS by supplying a mesh and
+      the function values at the nodes of that mesh, so that FENICS
+      works with the finite element interpolant of that data.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/interpolant
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 interpolant.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Hans Petter Langtangen, Anders Logg,<br>
+          Solving PDEs in Python - The FEniCS Tutorial Volume 1.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "interpolant.py">interpolant.py</a>
+          a script which sets up and solves the problem.
+        </li>
+        <li>
+          <a href = "interpolant.txt">interpolant.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "interpolant_mesh.xml">interpolant_mesh.xml</a>
+          an XML file describing the mesh.
+        </li>
+        <li>
+          <a href = "interpolant_values.txt">interpolant_values.txt</a>
+          a list of the function values at the vertices of the mesh.
+        </li>
+        <li>
+          <a href = "interpolant_mesh.png">interpolant_mesh.png</a>
+          a plot of the mesh.
+        </li>
+        <li>
+          <a href = "interpolant_values.png">interpolant_values.png</a>
+          a plot of the interpolant function.
+        </li>
+        <li>
+          <a href = "formula_values.png">formula_values.png</a>
+          a plot of function values, evaluated by a formula.
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 20 October 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

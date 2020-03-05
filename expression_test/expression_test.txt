@@ -1,0 +1,47 @@
+Mon Nov 12 14:07:02 2018
+
+expression_test:
+  FENICS/Python version
+  Demonstrate the FEniCS "Expression()" function.
+
+expression_test1:
+
+  Request the type of the expression object:
+  type ( f_expr ) =  <class 'dolfin.function.expression.Expression'>
+
+  The print command does not return the definition string.
+  print ( f_expr ) =  f_0
+
+  Choose a single argument for the function:
+  x =  (0.4, 0.24)
+
+  Evaluate the function:
+  f_expr ( x ) =  0.949179823508
+  Saving graphics in "expression_test1.png"
+
+  Define g_expr = Expression ( "pow ( x[0], POWER )", POWER = 2, ... )
+  x =  3.0
+  g_expr ( x ) =  9.0
+  Now reset g_expr.POWER = 3
+  g_expr ( x ) =  27.0
+
+  Define h_expr = Expression ( ( "sin(pi*x[0])", "cos(pi*x[0])" ), degree = 10 )
+  h_expr ( x ) =  [ 0.8660254  0.5      ]
+
+expression_test2:
+  Use Expression() in a finite element calculation.
+
+  error_L2  = 0.019557274328664588
+  error_max = 2.22044604925e-15
+
+expression_test3:
+  Use subclassing to set up an expression that is too complicated
+  for a one-line definition.
+  x =  (0.4, 0.24)
+  k_expr ( x ) =  f_52
+  Graphics saved as "expression_test3.png"
+
+expression_test:
+  Normal end of execution.
+
+Mon Nov 12 14:07:02 2018

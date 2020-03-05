@@ -1,0 +1,32 @@
+
+MESHES
+  Python version
+  Try out various options for creating a mesh.
+Plotting a UnitIntervalMesh
+Graphics saved as "unitintervalmesh.png"
+Plotting an IntervalMesh
+Graphics saved as "intervalmesh.png"
+Plotting a UnitSquareMesh
+Graphics saved as "unitsquaremesh.png"
+Plotting a UnitSquareMesh
+Graphics saved as "unitintervalmeshleft.png"
+Plotting a UnitSquareMesh
+Graphics saved as "unitintervalmeshcrossed.png"
+Plotting a UnitSquareMesh
+Graphics saved as "unitsquaremeshrightleft.png"
+Plotting a RectangleMesh
+Graphics saved as "rectanglemesh.png"
+Plotting a RectangleMesh
+Graphics saved as "rectanglemeshrightleft.png"
+Plotting a Circle Mesh
+Graphics saved as "circlemesh.png"
+Plotting a UnitCubeMesh
+Graphics saved as "unitcubemesh.png"
+Plotting a BoxMesh
+Graphics saved as "boxmesh.png"
+Generating mesh with CGAL 3D mesh generator
+Plotting a Sphere Mesh
+Graphics saved as "spheremesh.png"
+
+MESHES
+  Normal end of execution.

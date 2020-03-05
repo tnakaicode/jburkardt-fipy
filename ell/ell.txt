@@ -1,0 +1,13 @@
+ell_test:
+  FENICS/Python version
+  Boundary value problem on L-shaped region.
+  -del^2 u = f(x,y) in L
+  u(x,y) = 0 on dL
+  f(x,y) = e^(-(x-1)^2-(y-1)^2)
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Graphics saved as "ell_solution.png"
+
+ell_test:
+  Normal end of execution.
+

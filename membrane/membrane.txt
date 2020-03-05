@@ -1,0 +1,14 @@
+
+membrane
+  Python version
+  Poisson equation on a circular membrane.
+Solving linear variational problem.
+Graphics saved as "membrane_mesh.png"
+Graphics saved as "membrane_solution.png"
+Graphics saved as "membrane_pressure.png"
+
+  Maximum real deflection is 0.00872819
+
+membrane
+  Normal end of execution.
+

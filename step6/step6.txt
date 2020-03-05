@@ -1,0 +1,19 @@
+Mon Oct 29 14:28:01 2018
+
+step6:
+  FENICS/Python version
+  Step 6 in p-Laplacian investigation.
+  Solve the nonlinear equation directly.
+
+  Case of 16 x 16 mesh
+  Approximation degree 1:
+  P-Laplacian parameter P = 1.5
+  Graphics saved as "step6_mesh.png"
+  Graphics saved as "step6_solution.png"
+  Graphics saved as "step6_gradun.png"
+  Graphics saved as "step6_gammau.png"
+
+step6:
+  Normal end of execution.
+
+Mon Oct 29 14:28:01 2018

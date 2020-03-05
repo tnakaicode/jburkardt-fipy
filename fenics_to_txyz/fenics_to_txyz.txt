@@ -1,0 +1,12 @@
+Tue Nov 27 14:14:35 2018
+
+fenics_to_txyz_test:
+  FENICS/Python version
+  Convert FENICS data to FEM files: triangles, nodes+values.
+Wrote triangle file 't.txt'
+Wrote xyz file 'xyz.txt'
+
+fenics_to_txyz_test:
+  Normal end of execution.
+
+Tue Nov 27 14:14:35 2018

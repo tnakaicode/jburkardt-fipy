@@ -1,0 +1,15 @@
+
+bvp_05_test:
+  FENICS/Python version
+  Solve  -u" + u = x, 0 < x < 1
+  u(0) = 0
+  u(1) = 1-cosh(1)/sinh(1)
+  Exact solution: u(x) = x - sinh(x)/sinh(1)
+  Notice Neumann condition on the right.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Graphics saved as "bvp_05_solution.png"
+
+bvp_05_test:
+  Normal end of execution.
+

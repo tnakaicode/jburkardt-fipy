@@ -1,0 +1,133 @@
+<html>
+
+  <head>
+    <title>
+      poisson_source_symbolic - Use Symbolic Package for Right Hand Side of Poisson Equation
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      poisson_source_symbolic <br> Use Symbolic Package for Right Hand Side of Poisson Equation
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>poisson_source_symbolic</b>,
+      a FENICS script which
+      shows how to generate a formula for f(x,y), the right hand side of a 
+      Poisson problem, by applying the symbolic mathematics package to a 
+      formula for the desired exact solution u(x,y).
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/poisson_source_symbolic
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 poisson_source_symbolic.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../fenics_src/dpg_bvp/dpg_bvp.html">
+      dpg_bvp</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a boundary value problem over an interval,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      <a href = "../../fenics_src/dpg_laplace/dpg_laplace.html">
+      dpg_laplace</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      <a href = "../../fenics_src/dpg_laplace_adapt/dpg_laplace_adapt.html">
+      dpg_laplace_adapt</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square, with adaptivity,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Jay Gopalakrishnan,<br>
+          Five lectures on DPG Methods,<br>
+          Spring 2013, Portland State University,<br>
+          arXiv:1306.0557v2 [math.NA] 28 Aug 2014.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "poisson_source_symbolic.py">poisson_source_symbolic.py</a>
+          applies the DPG method to a Poisson problem.
+        </li>
+        <li>
+          <a href = "poisson_source_symbolic.txt">poisson_source_symbolic.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "poisson_source_symbolic_u_contour.png">poisson_source_symbolic_u_contour.png</a>
+          a contour plot of the solution.
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 01 November 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

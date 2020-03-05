@@ -1,0 +1,123 @@
+<html>
+
+  <head>
+    <title>
+      mesh_test
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      mesh_test
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>mesh_test</b>,
+      a FENICS script which
+      investigates some simple uses of the mesh objects and the various
+      function calls that create them.
+    </p>
+
+    <p>
+      Finite element calculations begin by creating a discretized model
+      of the geometry of a region.  FENICS supplies a number of ways of
+      creating a mesh, or of reading in a mesh created by an external program.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/mesh_test
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 mesh_test.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../fenics_src/expression_test/expression_test.html">
+      expression_test</a>,
+      a FENICS script which
+      explores expression objects.
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "mesh_test.py">mesh_test.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "mesh_test.txt">mesh_test.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "cape.png">cape.png</a>
+          a plot of a mesh created by reading an XML file.
+        </li>
+        <li>
+          <a href = "cape.xml">cape.xml</a>
+          an XML file describing a mesh.
+        </li>
+        <li>
+          <a href = "circleminusrectanglemesh.png">circleminusrectanglemesh.png</a>
+          a plot of mesh of a circle minus a rectangle.
+        </li>
+        <li>
+          <a href = "rectanglemesh.png">rectanglemesh.png</a>
+          a plot of a mesh on a rectangle.
+        </li>
+        <li>
+          <a href = "unitcubemesh.png">unitcubemesh.png</a>
+          a plot of a mesh in the unit cube.
+        </li>
+        <li>
+          <a href = "unitintervalmesh.png">unitintervalmesh.png</a>
+          a plot of a mesh over the unit interval.
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 12 November 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

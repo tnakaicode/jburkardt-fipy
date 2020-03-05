@@ -1,0 +1,200 @@
+<html>
+
+  <head>
+    <title>
+      bvp - Solution of Two-Point Boundary Value Problems
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      bvp <br> Solution of Two-Point Boundary Value Problems
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>bvp</b>,
+      FENICS scripts which
+      use the finite element method to solve two point boundary value problems
+      (BVP) over an interval in 1D.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/bvp
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 bvp_01.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Hans Petter Langtangen, Anders Logg,<br>
+          Solving PDEs in Python - The FEniCS Tutorial Volume 1.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      bvp_01.py sets up and solves a two point boundary value problem.
+      <ul>
+        <li>
+          <a href = "bvp_01.py">bvp_01.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "bvp_01.txt">bvp_01.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "bvp_01_solution.png">bvp_01_solution.png</a>
+          a plot of the solution.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      bvp_02.py repeats the calculation done by bvp_01.py, but now prints
+      out a table of the solution, estimates the L2 norm and H1 seminorms
+      of the error, and computes the average value of the solution in two ways.
+      <ul>
+        <li>
+          <a href = "bvp_02.py">bvp_02.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "bvp_02.txt">bvp_02.txt</a>
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      bvp_03.py solves the same BVP 4 times, on a sequence of refined meshes.
+      <ul>
+        <li>
+          <a href = "bvp_03.py">bvp_03.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "bvp_03.txt">bvp_03.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "bvp_03_04_mesh.xml">bvp_03_04_mesh.xml</a>
+          a mesh.
+        </li>
+        <li>
+          <a href = "bvp_03_04_solution.png">bvp_03_04_solution.png</a>
+          a plot of the corresponding solution.
+        </li>
+        <li>
+          <a href = "bvp_03_08_mesh.xml">bvp_03_08_mesh.xml</a>
+          a mesh.
+        </li>
+        <li>
+          <a href = "bvp_03_08_solution.png">bvp_03_08_solution.png</a>
+          a plot of the corresponding solution.
+        </li>
+        <li>
+          <a href = "bvp_03_16_mesh.xml">bvp_03_16_mesh.xml</a>
+          a mesh.
+        </li>
+        <li>
+          <a href = "bvp_03_16_solution.png">bvp_03_16_solution.png</a>
+          a plot of the corresponding solution.
+        </li>
+        <li>
+          <a href = "bvp_03_32_mesh.xml">bvp_03_32_mesh.xml</a>
+          a mesh.
+        </li>
+        <li>
+          <a href = "bvp_03_32_solution.png">bvp_03_32_solution.png</a>
+          a plot of the corresponding solution.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      bvp_04.py solves the same problem as bvp_01.py, but sets the Dirichlet
+      boundary conditions explicitly.
+      <ul>
+        <li>
+          <a href = "bvp_04.py">bvp_04.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "bvp_04.txt">bvp_04.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "bvp_04_solution.png">bvp_04_solution.png</a>
+          a plot of the solution.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      bvp_05.py solves the same problem as bvp_04.py, except that on the
+      right endpoint a Neumann condition is applied.
+      <ul>
+        <li>
+          <a href = "bvp_05.py">bvp_05.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "bvp_05.txt">bvp_05.txt</a>
+          the output file.
+        </li>
+        <li>
+          <a href = "bvp_05_solution.png">bvp_05_solution.png</a>
+          a plot of the solution.
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 21 October 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

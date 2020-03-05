@@ -1,0 +1,23 @@
+Tue Oct 30 13:30:59 2018
+
+poisson_source_symbolic_test:
+  FENICS/Python version
+  p-Laplacian investigation
+  Generate the right hand side function f(x,y)
+  for a Poisson problem
+  - div kappa(u,x,y) grad u = f(x,y) in Omega
+                          u = g(x,y) on dOmega
+  where we have already chosen
+    u(x,y) = 1 + x + 2y
+    kappa(u,x,y) = 1 + u^2
+  and want f(x,y) computed symbolically by SymPy.
+
+  Formula for F(x,y) computed by SymPy:
+
+  f(x,y) =  -10*x[0] - 20*x[1] - 10
+  Graphics saved as "poisson_source_symbolic_u_contour.png"
+
+poisson_source_symbolic_test:
+  Normal end of execution.
+
+Tue Oct 30 13:31:00 2018

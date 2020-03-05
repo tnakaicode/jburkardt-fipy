@@ -1,0 +1,11 @@
+
+heat_steady_04
+  Python version
+  2D steady heat equation on a rectangle.
+  Discontinuous diffusivity coefficient K.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+Saving graphics in file 'heat_steady_04.png'
+
+heat_steady_04
+  Normal end of execution.

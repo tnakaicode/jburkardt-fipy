@@ -1,0 +1,20 @@
+burgers_steady_test:
+  Python version
+  Solve the steady 1d Burgers equation.
+
+burgers_steady:
+  Number of elements is 16
+  Viscosity set to 0.1
+Solving nonlinear variational problem.
+  Newton iteration 0: r (abs) = 1.811e+00 (tol = 1.000e-10) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 2.615e-01 (tol = 1.000e-10) r (rel) = 1.444e-01 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 6.093e-02 (tol = 1.000e-10) r (rel) = 3.364e-02 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 1.994e-03 (tol = 1.000e-10) r (rel) = 1.101e-03 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 1.515e-06 (tol = 1.000e-10) r (rel) = 8.363e-07 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 3.910e-13 (tol = 1.000e-10) r (rel) = 2.159e-13 (tol = 1.000e-09)
+  Newton solver finished in 5 iterations and 5 linear solver iterations.
+Graphics saved as "burgers_steady.png"
+
+burgers_steady_test:
+  Normal end of execution.
+

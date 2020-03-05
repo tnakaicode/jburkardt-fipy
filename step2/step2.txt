@@ -1,0 +1,15 @@
+
+step2:
+  FENICS/Python version
+  Step 2 in P-Laplacian investigation.
+  Piecewise constant diffusivity.
+
+  Case of 8 x 8 mesh
+  Approximation degree 1:
+  Graphics saved as "step2_mesh.png"
+  Graphics saved as "step2_diffusivity.png"
+  Graphics saved as "step2_solution.png"
+  Graphics saved as "step2_indicators.png"
+
+step2:
+  Normal end of execution.

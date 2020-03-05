@@ -1,0 +1,24 @@
+
+step1:
+  FENICS/Python version
+  First step in P-Laplacian investigation.
+
+  Case of 4 x 4 mesh
+  Approximation degree 1:
+  Graphics saved as "step1_mesh.png"
+  Graphics saved as "step1_solution.png"
+  Graphics saved as "step1_exact.png"
+  L2-norm of  (u - uh)   =  0.004364136286
+  Graphics saved as "step1_refined_mesh.png"
+
+  Use refined mesh for further error analysis.
+
+  H1-norm of  (u - uh)   =  0.129463191279
+  Error estimator norm   =  0.131675481218
+  Error in H1 Projection =  0.129460797973
+  Error:Projection ratio =  1.000018486728
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+  H1-norm of (uh - up) =  0.000787200762
+
+step1:
+  Normal end of execution.

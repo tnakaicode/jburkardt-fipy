@@ -1,0 +1,7 @@
+heat_steady_02
+  Python version
+  Solve the heat equation with a point source.
+Saving graphics in file 'heat_steady_02.png'
+
+heat_steady_02
+  Normal end of execution.

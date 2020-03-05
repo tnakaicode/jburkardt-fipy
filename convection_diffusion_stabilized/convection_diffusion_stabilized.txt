@@ -1,0 +1,20 @@
+Fri Nov  2 19:54:11 2018
+
+convection_diffusion_stabilized_test:
+  FENICS/Python version
+  Convection/diffusion equation with stabilization.
+  - ux - (mu+beta hmin) uxx = f in Omega = the unit interval.
+  u(0) = 0, u(1) = 1
+
+  Unit interval mesh n = 10
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+  Graphics saved as "convection_diffusion_stabilized_solutions_grid10.png"
+
+  Unit interval mesh n = 100
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+  Graphics saved as "convection_diffusion_stabilized_solutions_grid100.png"
+
+convection_diffusion_stabilized_test:
+  Normal end of execution.
+
+Fri Nov  2 19:54:13 2018

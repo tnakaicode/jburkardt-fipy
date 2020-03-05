@@ -1,0 +1,14 @@
+
+bvp_04_test:
+  FENICS/Python version
+  Solve  -u" + u = x, 0 < x < 1
+  u(0) = 0, u(1) = 0 
+  Exact solution: u(x) = x - sinh(x)/sinh(1)
+  Set Dirichlet boundary conditions explicitly.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+Solving linear variational problem.
+  Graphics saved as "bvp_04_solution.png"
+
+bvp_04_test:
+  Normal end of execution.
+

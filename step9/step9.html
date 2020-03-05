@@ -1,0 +1,154 @@
+<html>
+
+  <head>
+    <title>
+      step9 - Display Error Decay for Sequence of Adaptive Meshes
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      step9 <br> Display Error Decay for Sequence of Adaptive Meshes
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>step9</b>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem, and repeatedly refines the mesh, guided by
+      DPG error indicators.  On each refinement step, the top fifty percent 
+      of the cells are refined, as ordered by size of local error estimates.
+      It then plots the decay of the estimated error as a function of the 
+      number of mesh elements.
+    </p>
+
+    <p>
+      The program relies heavily on the ideas and implementation embodied in
+      Jay Gopalakrishnan's dpg_laplace code.
+    </p>
+
+    <p>
+      Note that I have installed FENICS using Docker, and so to run this
+      script I issue the commands:
+      <ol>
+        <li>
+          cd $HOME/fenicsproject/step9
+        </li>
+        <li>
+          fenicsproject run
+        </li>
+        <li>
+          python3 step9.py
+        </li>
+        <li>
+          exit
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page 
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../fenics_src/dpg_bvp/dpg_bvp.html">
+      dpg_bvp</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a boundary value problem over an interval,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      <a href = "../../fenics_src/dpg_laplace/dpg_laplace.html">
+      dpg_laplace</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <p>
+      <a href = "../../fenics_src/dpg_laplace_adapt/dpg_laplace_adapt.html">
+      dpg_laplace_adapt</a>,
+      a FENICS script which
+      uses the Discontinuous Petrov Galerkin (DPG) method to solve
+      a Poisson problem over the unit square, with adaptivity,
+      by Jay Gopalakrishnan.
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Jay Gopalakrishnan,<br>
+          Five lectures on DPG Methods,<br>
+          Spring 2013, Portland State University,<br>
+          arXiv:1306.0557v2 [math.NA] 28 Aug 2014.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "step9.py">step9.py</a>
+          the script.
+        </li>
+        <li>
+          <a href = "step9.txt">step9.txt</a>
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "step9_error_decay_case1.png">step9_error_decay_case1.png</a>
+        </li>
+        <li>
+          <a href = "step9_error_decay_case2.png">step9_error_decay_case2.png</a>
+        </li>
+        <li>
+          <a href = "step9_error_decay_case3.png">step9_error_decay_case3.png</a>
+        </li>
+        <li>
+          <a href = "step9_error_decay_case4.png">step9_error_decay_case4.png</a>
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 05 November 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

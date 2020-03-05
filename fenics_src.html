@@ -1,0 +1,309 @@
+<html>
+
+  <head>
+    <title>
+      FENICS Examples
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055" >
+
+    <h1 align = "center">
+      FENICS Examples
+    </h1>
+
+    <hr>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "annulus_flow/annulus_flow.html">
+          annulus_flow</a>,
+          a FENICS script which
+          simulates flow in an annulus, goverened by the time-dependent
+          Navier Stokes equations.
+        </li>
+        <li>
+          <a href = "burgers_steady_viscous/burgers_steady_viscous.html">
+          burgers_steady_viscous</a>,
+          a FENICS script which
+          solves the steady viscous Burgers equation in 1D.
+        </li>
+        <li>
+          <a href = "burgers_time_viscous/burgers_time_viscous.html">
+          burgers_time_viscous</a>,
+          a FENICS script which
+          solves the time-dependent viscous Burgers equation in 1D.
+        </li>
+        <li>
+          <a href = "bvp/bvp.html">
+          bvp</a>,
+          FENICS scripts which
+          solve two-point boundary value problems (BVP) in 1D.
+        </li>
+        <li>
+          <a href = "convection_diffusion/convection_diffusion.html">
+          convection_diffusion</a>,
+          a FENICS script which
+          simulates a 1D convection diffusion problem.
+        </li>
+        <li>
+          <a href = "domain/domain.html">
+          domain</a>, 
+          a FENICS script which
+          creates a region starting with a circle,
+          and then "subtracting" a rectangle and smaller circle.
+        </li>
+        <li>
+          <a href = "dpg_bvp/dpg_bvp.html">
+          dpg_bvp</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a boundary value problem over an interval,
+          by Jay Gopalakrishnan.
+        </li>
+        <li>
+          <a href = "dpg_laplace/dpg_laplace.html">
+          dpg_laplace</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a Poisson problem over the unit square,
+          by Jay Gopalakrishnan.
+        </li>
+        <li>
+          <a href = "dpg_laplace_adapt/dpg_laplace_adapt.html">
+          dpg_laplace_adapt</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a Poisson problem over the unit square, with adaptivity,
+          by Jay Gopalakrishnan.
+        </li>
+        <li>
+          <a href = "ell/ell.html">
+          ell</a>,
+          a FENICS script which
+          solves the Poisson equation on the L-shaped region.
+        </li>
+        <li>
+          <a href = "expression_test/expression_test.html">
+          expression_test</a>,
+          a FENICS script which
+          demonstrates some properties of the objects created by the
+          FEniCS Expression() function.
+        </li>
+        <li>
+          <a href = "fenics_to_fem/fenics_to_fem.html">
+          fenics_to_fem</a>, 
+          FENICS scripts which
+          illustrate how a mesh or scalar function computed by a FENICS program
+          can be written to FEM files, which can then be used to create
+          images, or as input to meshing programs or other analysis tools.
+        </li>
+        <li>
+          <a href = "glacier/glacier.html">
+          glacier</a>, 
+          a FENICS script which
+          sets up the 2D steady Stokes equations
+          to model the movement of a glacier, by William Mitchell.
+          Sadly, this USED to work with a previous version of FENICS...
+        </li>
+        <li>
+          <a href = "heat_explicit/heat_explicit.html">
+          heat_explicit</a>,
+          a FENICS script which
+          uses the finite element method to solve a version of the time dependent
+          heat equation over a rectangular region with a circular hole.
+          Time steps are handled using an explicit method.
+        </li>
+        <li>
+          <a href = "heat_implicit/heat_implicit.html">
+          heat_implicit</a>,
+          a FENICS script which
+          uses the finite element method to solve a version of the time dependent
+          heat equation over a rectangular region with a circular hole.
+          Time steps are handled using an implicit solver.
+        </li>
+        <li>
+          <a href = "heat_steady/heat_steady.html">
+          heat_steady</a>, 
+          FENICS scripts which
+          set up the 2D steady heat equation in a rectangle.
+        </li>
+        <li>
+          <a href = "interpolant/interpolant.html">
+          interpolant</a>,
+          a FENICS script which
+          shows how to define a function in FENICS by supplying a mesh and
+          the function values at the nodes of that mesh, so that FENICS
+          works with the finite element interpolant of that data.
+        </li>
+        <li>
+          <a href = "membrane/membrane.html">
+          membrane</a>, 
+          a FENICS script which
+          models the deflection of a circular elastic 
+          membrane subject to a perpendicular pressure modeled as a Gaussian 
+          function.
+        </li>
+        <li>
+          <a href = "mesh_test/mesh_test.html">
+          mesh_test</a>,
+          a FENICS script which
+          demonstrates some properties of the objects created
+          by the various FEniCS meshing functions.
+        </li>
+        <li>
+          <a href = "meshes/meshes.html">
+          meshes</a>, 
+          a FENICS script which
+          generates and plots the simple built-in mesh
+          types that FENICS provides.
+        </li>
+        <li>
+          <a href = "mitchell/mitchell.html">
+          mitchell</a>, 
+          FENICS scripts which
+          illustrate the implementation of the Mitchell elliptic test problems
+          using FENICS.  I only managed to complete a few of these.
+        </li>
+        <li>
+          <a href = "neumann/neumann.html">
+          neumann</a>,
+          a FENICS script which
+          solves a boundary value problem in the unit square,
+          for which homogeneous Neumann conditions are imposed,
+          adapted from a program by Doug Arnold.
+        </li>
+        <li>
+          <a href = "p_laplacian/p_laplacian.html">
+          p_laplacian</a>,
+          a FENICS script which
+          sets up and solves the nonlinear p-Laplacian PDE in the unit square.
+        </li>
+        <li>
+          <a href = "poisson/poisson.html">
+          poisson</a>,
+          a FENICS script which
+          solves the Poisson equation on the unit square,
+          adapted from the FENICS tutorial by Langtangen and Logg.
+        </li>
+        <li>
+          <a href = "poisson_nonlinear/poisson_nonlinear.html">
+          poisson_nonlinear</a>,
+          a FENICS script which
+          uses the finite element method to solve a version of the nonlinear
+          Poisson equation over the unit square.
+        </li>
+        <li>
+          <a href = "poisson_source_symbolic/poisson_source_symbolic.html">
+          poisson_source_symbolic</a>,
+          a FENICS script which
+          shows how the symbolic package can be used to determine the 
+          right hand side f(x,y) of a Poisson equation, given the desired exact
+          solution u(x,y).
+        </li>
+        <li>
+          <a href = "step1/step1.html">
+          step1</a>,
+          a FENICS script which
+          solves a Poisson equation with constant diffusivity kappa(x,y).
+        </li>
+        <li>
+          <a href = "step2/step2.html">
+          step2</a>,
+          a FENICS script which
+          solves a Poisson equation with piecewise constant diffusivity kappa(x,y).
+        </li>
+        <li>
+          <a href = "step3/step3.html">
+          step3</a>,
+          a FENICS script which
+          solves a Poisson equation with piecewise constant diffusivity kappa(x,y),
+          and computes and plots |grad(u)|.
+        </li>
+        <li>
+          <a href = "step4/step4.html">
+          step4</a>,
+          a FENICS script which
+          shows how to generate the right hand side of a Poisson problem,
+          using the symbolic mathematics package and an exact solution formula.
+        </li>
+        <li>
+          <a href = "step5/step5.html">
+          step5</a>,
+          a FENICS script which
+          solves a Poisson equation whose diffusivity kappa(x,y) is defined 
+          as |grad(w)| for a given scalar field w(x,y).
+        </li>
+        <li>
+          <a href = "step6/step6.html">
+          step6</a>,
+          a FENICS script which
+          solves the nonlinear p-Laplacian problem directly.
+        </li>
+        <li>
+          <a href = "step7/step7.html">
+          step7</a>,
+          a FENICS script which
+          compares error norm and DPG error indicators for a Poisson problem.
+        </li>
+        <li>
+          <a href = "step8/step8.html">
+          step8</a>,
+          a FENICS script which
+          uses DPG error indicators for adaptive mesh refinement.
+        </li>
+        <li>
+          <a href = "step9/step9.html">
+          step9</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a Poisson problem, and repeatedly refines the mesh, guided by
+          DPG error indicators.  On each refinement step, the top fifty percent 
+          of the cells are refined, as ordered by size of local error estimates.
+          It then plots the decay of the estimated error as a function of the 
+          number of mesh elements.
+        </li>
+        <li>
+          <a href = "step10/step10.html">
+          step10</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a Poisson problem, and repeatedly refines the mesh, guided by
+          DPG error indicators.  On each refinement step, cells are ordered by 
+          size of the local error estimates, and then enough "top" cells are 
+          refined to represent the proportion THETA of the total error estimate.
+          It then plots the decay of the estimated error as a function of the 
+          number of mesh elements.
+        </li>
+        <li>
+          <a href = "step11/step11.html">
+          step11</a>,
+          a FENICS script which
+          uses the Discontinuous Petrov Galerkin (DPG) method to solve
+          a Poisson problem, and repeatedly refines the mesh, guided by
+          DPG error indicators.  Two methods of adaptive refinement are 
+          compared, one of which refines cells which represent a fixed percentage
+          of the error (case 0), and one of which refines a fixed percentage 
+          of the cells (case1).  The problem uses a discontinuous diffusivity 
+          function kappa(x,y).
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to
+      <a href = "../index.html">the main web page.</a>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 12 November 2018
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+</html>
