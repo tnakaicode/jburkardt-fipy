@@ -99,6 +99,7 @@ def bvp_03(header):
 #
     label = header
     plot(u, title=header)
+    plt.grid()
     filename = header + '_solution.png'
     plt.savefig(filename)
     print('  Graphics saved as "%s"' % (filename))

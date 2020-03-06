@@ -3,7 +3,7 @@
 from fenics import *
 
 
-def bvp_04():
+def bvp_04(e_num=8):
 
     # *****************************************************************************80
     #
@@ -37,7 +37,7 @@ def bvp_04():
 #
 #  Define the mesh
 #
-    mesh = UnitIntervalMesh(9)
+    mesh = UnitIntervalMesh(e_num)
 #
 #  Function Space
 #
@@ -92,7 +92,8 @@ def bvp_04():
 #  Plot the solution.
 #
     plot(u, title='bvp_04 solution')
-    filename = 'bvp_04_solution.png'
+    plt.grid()
+    filename = 'bvp_04_solution_{:03d}.png'.format(e_num)
     plt.savefig(filename)
     print('  Graphics saved as "%s"' % (filename))
     plt.close()
@@ -133,7 +134,9 @@ def bvp_04_test():
     print('  Exact solution: u(x) = x - sinh(x)/sinh(1)')
     print('  Set Dirichlet boundary conditions explicitly.')
 
-    bvp_04()
+    bvp_04(e_num=8)
+    bvp_04(e_num=20)
+    bvp_04(e_num=50)
 
     print('')
     print('bvp_04_test:')

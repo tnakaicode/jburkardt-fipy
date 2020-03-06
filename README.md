@@ -1,5 +1,22 @@
 # Fenics]
 
+## bvp
+
+-u'' + u &=& x
+0 < x < 1
+u(0) = 0
+u(1) = 0
+
+Exact solution is u(x) = x - sinh(x)/sinh(1)
+
+- Create a mesh on the unit interval
+- Define the function space to be of Lagrange type using piecewise linear basis functions.
+- Set the boundary conditions.
+- Define the system matrix.
+- Set up the right hand side.
+- pecify that the solution is a linear combination of elements of V.
+- Solve the problem for U, with the given boundary conditions.
+
 ## dpg_laplace_adapt
 
 - "Error:   Unable to successfully call PETSc function 'KSPSolve'."

@@ -88,7 +88,8 @@ def bvp_01(e_num):
 #  Plot the solution.
 #
     plot(u, title='bvp_01 solution')
-    filename = 'bvp_01_solution.png'
+    plt.grid()
+    filename = 'bvp_01_solution_{:03d}.png'.format(e_num)
     plt.savefig(filename)
     print('  Graphics saved as "%s"' % (filename))
     plt.close()
@@ -129,7 +130,10 @@ def bvp_01_test():
 
     e_num = 8
     print('  Using %d elements.' % (e_num))
+    bvp_01(e_num)
 
+    e_num = 20
+    print('  Using %d elements.' % (e_num))
     bvp_01(e_num)
 #
 #  Terminate.

@@ -3,7 +3,7 @@
 from fenics import *
 
 
-def bvp_05():
+def bvp_05(e_num=10):
 
     # *****************************************************************************80
     #
@@ -39,7 +39,7 @@ def bvp_05():
 #
 #  Define the mesh
 #
-    mesh = UnitIntervalMesh(10)
+    mesh = UnitIntervalMesh(e_num)
 #
 #  Define the right hand side.
 #
@@ -84,7 +84,8 @@ def bvp_05():
 #  Plot the solution.
 #
     plot(u, title='bvp_05 solution')
-    filename = 'bvp_05_solution.png'
+    plt.grid()
+    filename = 'bvp_05_solution_{:03d}.png'.format(e_num)
     plt.savefig(filename)
     print('  Graphics saved as "%s"' % (filename))
     plt.close()
@@ -124,7 +125,10 @@ def bvp_05_test():
     print('  Exact solution: u(x) = x - sinh(x)/sinh(1)')
     print('  Notice Neumann condition on the right.')
 
-    bvp_05()
+    bvp_05(e_num=8)
+    bvp_05(e_num=10)
+    bvp_05(e_num=20)
+    bvp_05(e_num=50)
 
     print('')
     print('bvp_05_test:')
